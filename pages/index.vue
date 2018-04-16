@@ -2,19 +2,19 @@
   <main class="page" :class="{ isOffline }">
     <header class="header">
       <LCDDisplay class="board"></LCDDisplay>
-      <div class="logo-place">
+      <!--<div class="logo-place">
         <AppLogo class="logo"></AppLogo>
-      </div>
+      </div>-->
     </header>
   </main>
 </template>
 
 <script>
-  import AppLogo from '~/components/AppLogo.vue'
+  // import AppLogo from '~/components/AppLogo.vue'
   import LCDDisplay from '~/components/LCDDisplay'
 
   export default {
-    components: { AppLogo, LCDDisplay },
+    components: { /* AppLogo, */ LCDDisplay },
   }
 </script>
 
@@ -33,12 +33,12 @@
     /*transform: scale(1.1);
     transform-origin: 100% 100%;*/
   }
-  .logo-place {
+  /*.logo-place {
     display: flex;
     justify-content: center;
   }
   .logo {
     padding: 2em;
     width: 40vw;
-  }
+  }*/
 </style>
