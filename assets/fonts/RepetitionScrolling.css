@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Repetition-Scrolling';
+  src:  url('Repetition-Scrolling.ttf.woff') format('woff'),
+  url('Repetition-Scrolling.ttf.svg#Repetition-Scrolling') format('svg'),
+  url('Repetition-Scrolling.ttf.eot'),
+  url('Repetition-Scrolling.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
