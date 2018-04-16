@@ -2,6 +2,8 @@
 
 > Arduino Day - Juiz de Fora
 
+See [demo](https://arduinoday.meaningless.site/)
+
 ## Build Setup
 
 ``` bash
